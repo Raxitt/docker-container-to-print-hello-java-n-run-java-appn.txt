@@ -1,0 +1,22 @@
+ vi docker.sh
+    2  sh docker.sh
+    3  systemctl start docker
+    4  sudo yyum install java-11 *
+    5  sudo yyum install java-11*
+    6  sudo yum install java-11*
+    7  sudo yum install git -y
+    8  git --version
+    9  vi hello.java
+   10  vi ta.sh
+   11  sh ta.sh
+   12  docker run --name my-java-app hello-devops
+   13  docker ps
+   14  docker image
+   15  docker ps -a
+   16  docker images
+   17  docker push lohith15/hello-devops
+   18  docker run --name my-java-app hello-devops
+   19  docker commit my-java-app hello-devops-snapshot
+   20  docker tag hello-devops-snapshot lohith15/hello-devops-snapshot
+   21  docker login
+   22  docker push lohith15/hello-devops-snapshot
